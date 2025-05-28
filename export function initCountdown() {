@@ -1,6 +1,6 @@
 export function initCountdown() {
     // Create a Date object for June 1, 12:00 PM Beijing Time (UTC+8)
-    const countdownDate = new Date('June 1, 2024 04:00:00').getTime();
+    const countdownDate = new Date('June 1, 2025 04:00:00').getTime();
 
     const countdownFunction = setInterval(() => {
         const now = new Date().getTime();
